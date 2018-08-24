@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Overpass+Mono);
+
+body{
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+section {
+	background: #000;
+	color: #fff;
+	padding: 2em;
+	width: 100%;
+	font-family: "Overpass Mono";
+}
+
+#title{
+	font-size:5vw;
+	line-height: 1
+}
+
+text.label{
+	font-size: 12px;
+	color:#fff;
+}
+
+#follow {
+  background: none;
+}
+
+.spaced{
+	line-height: 1.5;
+	width:60%;
+}
+
+#pt{
+	margin-top:-120vh;
+	margin-left: 80vw;
+	width: 120vw;
+	height: 200vh;
+	direction: inline;
+	float:right;
+}
+
+@media(max-width: 899px){
+	#pt{
+		display: none;
+	}
+}
+
+.orange{
+	color:orange; 
+}
+
+.grey {
+  color: #777;
+}
+
+a:link,
+a:visited {
+  color: orange;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* On mouse hover, lighten state color */
+path:hover {
+	fill-opacity: .7;
+}
+
+/* Style for Custom Tooltip */
+div.tooltip {   
+ 	position: absolute;           
+	text-align: center;           
+	width: 60px;                  
+	height: 28px;                 
+	padding: 2px;             
+	font: 12px sans-serif;        
+	background: white;   
+	border: 0px;      
+	border-radius: 8px;           
+	pointer-events: none;         
+}
+        
+/* Legend Font Style */
+body {
+	font: 11px sans-serif;
+}
+        
+/* Legend Position Style */
+.color-legend {
+	/*position:absolute;
+	left:800px;
+	top:350px;*/
+	color:#fff;
+}
+
+img.responsive{
+	display:block;
+	margin:0 auto;
+	max-width: 100%;
+}
+.neg{
+	height:60%;
+}
+.neg-act{
+	height:50%;
+}
+
+.text-center{
+	text-align: center;
+}

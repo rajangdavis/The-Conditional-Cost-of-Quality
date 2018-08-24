@@ -1,0 +1,43 @@
+Average Sales Price -> Interactions
+	-Pool QC
+	-Paved Drive
+	-Garage Cond
+	-Garage Qual
+	-Garage Finish
+	-Garage Yr Blt
+	-Garage Type
+	-Fireplace Qu
+	-Fireplaces
+	-Functional
+	-TotRms AbvGrd
+	-Kitchen Quality
+	-Bedroom AbvGrd
+	-Bsmt Full Bath
+	-Electical
+	-Central Air
+	-Heating QC
+	-Heating
+	-Bsmt Exposure
+	-Bsmt Condition
+	-Foundation
+	-Exter Cond
+	-Exter Qual
+	-Exterior 2nd
+	-Roof Matl
+	-Roof Style
+	-Year Remod/Add
+	-Overall Cond
+	-Overall Quality
+	-House Style
+	-Condition 2
+	-Land Slope
+	-Utilities
+	-Land Contour
+	-Lot Shape
+	-Street
+	-MS Zoning
+
+Average Sales Price -> Relationships
+	-Total Bsmt SF
+	-Garage Area
+	-Bsmt SF 1
