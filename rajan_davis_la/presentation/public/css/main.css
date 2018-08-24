@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Overpass+Mono);
+
+body{
+	text-align: left;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+section *{
+	font-family: "Overpass Mono" !important;
+}
+.axis .domain {
+  display: none;
+}
+
+h1#title{
+	font-size:36px !important;
+}
+
+g.tick *{
+	stroke:#000;
+}
+
+h1.questions, h1.findings{
+	font-size:36px !important;
+}
+#small{
+	font-weight: 100;
+	opacity: .25;
+}
