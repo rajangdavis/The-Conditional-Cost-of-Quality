@@ -10,6 +10,7 @@ The questions I looked to answer were:
 4. Are there relationships between when a house was built, how much it sold for, and it's rated quality?
 5. What effect does the overall condition have on sale price?
 6. Are newer houses in better condition than older houses and how does this relate to sales price?
+6. What effect does modifications have on a house's sales price?
 
 Presentation can be ran in the [browser from this link](https://evening-plateau-73322.herokuapp.com/).
 
