@@ -21,7 +21,7 @@ def chart_data
 	@csv.to_a.map {|row| ret = row.to_hash;  ret.delete(ret.keys.first); ret.slice("Overall Qual","Year Built","Overall Cond", "SalePrice","Year Remod/Add", "Yr Sold") }.to_json
 end
 
-get '/' do  
+get '/' do
 	@chart_data = chart_data
 	erb :"index"
 end 

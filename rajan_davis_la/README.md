@@ -13,6 +13,9 @@ The questions I looked to answer were:
 
 Presentation can be ran in the [browser from this link](https://evening-plateau-73322.herokuapp.com/).
 
+## Presentation PDF
+A PDF of the presentation can be found [here](./presentation/iowa-housing-data-viz.pdf)
+
 ## Running the presentation
 
 Change into the directory folder and run:

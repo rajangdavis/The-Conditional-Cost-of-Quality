@@ -5,6 +5,13 @@
 	<link rel="stylesheet" type="text/css" href="/css/reveal.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/white.min.css">
 	<link rel="stylesheet" type="text/css" href="/css/main.css">
+	<% if params['print']=="true"%>
+	<style type="text/css">
+	    section svg, section h4{
+	    	margin-top: -200px !important;
+	    }
+	</style>
+	<% end %>
 </head>
 <body>
 	<div class="reveal">
