@@ -31,6 +31,7 @@ const mapData = (keys, dataToMap, count, columnToCount, condOrQual, builtModdedS
 const qualKeys = [1,2,3,4,5,6,7,8,9,10];
 const condKeys = [1,2,3,4,5,6,7,8,9];
 const barChart7MappedData = mapData(qualKeys,barChartData, 1, "", "Overall Qual", "Year Built");
+console.log(barChart7MappedData)
 const barChart8MappedData = mapData(qualKeys,barChartData, 0, "SalePrice", "Overall Qual", "Year Built");
 const barChart9MappedData = mapData(qualKeys,barChartData, 1, "", "Overall Qual", "Year Remod/Add");
 const barChart10MappedData = mapData(qualKeys,barChartData, 0, "SalePrice", "Overall Qual", "Year Remod/Add");
